@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.message {
+  width: 250px;
+  height: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: 100px;
+}
